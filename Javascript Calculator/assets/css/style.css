@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&display=swap');
+
+body {text-align: center;
+    padding-top: 90px;
+    background-image: url('https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcm0zNzNiYXRjaDEzLTA4Mi1rcHhrOW5nay5qcGc.jpg');    
+    background-size: 90em;
+
+}
+
+
+/*colore titolo + titolo*/
+#colored-title{
+    color:#57a9ec;
+    text-align: center;
+    font-size:36 px;
+}
+h1 {
+    font-family:'Inconsolata', monospace;
+    font-size: 40px;
+}
+
+/*content*/ 
+.content {
+    margin-left:2px;
+}
+
+/*calcolatrice*/ 
+.calcolatrice {
+    margin: 0 auto;
+    margin-bottom: 6em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    width: 27%;
+    border-radius: 4em;
+    border-width: 0.5em;
+    border-color:rgb(4, 241, 241); 
+    background-position:center;
+    background-color: transparent;
+    border-style:double;
+    padding: auto;
+}
+/*tasto*/
+.tasto {
+    background-color: #b2f006 ;
+    color:#f8f4f4;
+    border-radius: 10px;
+    border-color: rgb(243, 235, 235);
+    font-size: 22px;
+    margin: 4px 2px;
+    height: 40px;
+    width: 46px;
+}
+/*dispaly*/ 
+.display {
+    background: none;
+    font-size: 24pt;
+    border-radius: 7px;
+    border-color: rgb(243, 235, 235);
+    background-color: rgb(255, 0, 234);
+    margin: 4px 2px;
+    width: 204px;
+    height: 40px;            
+}
+/*uguale*/
+.uguale {
+    width: 208px;
+    border-radius: 7px;
+    border-color: white;
+    background-color: rgb(255, 0, 234);
+}
